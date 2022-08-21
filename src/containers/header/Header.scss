@@ -8,7 +8,7 @@
 
   background-color: $white;
 }
-.content {
+.header-content {
   &__title{
     font-size: 48px;
     color: $black;
@@ -30,17 +30,16 @@
   }
   &__button {
     background-color: $base-yellow-color;
-    border: none;
     width: 154px;
     height: 51px;
   }
 }
 
-.img {
-  &::after {
-    z-index: 999;
-    width: 100px;
-    height: 100px;
-    background-image: url("../../assets/img/Rectangle 51.png");
-  }
-}
+//.img {
+//  &::after {
+//    z-index: 999;
+//    width: 100px;
+//    height: 100px;
+//    background-image: url("../../assets/img/Rectangle 51.png");
+//  }
+//}
