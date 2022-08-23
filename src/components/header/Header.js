@@ -3,7 +3,7 @@ import img from '../../assets/img/me.png'
 
 const Header = () => {
     return (
-        <div className="container">
+        <header id="pageHeader" className="container">
             <div className="header-content">
                 <h1 className="header-content__title">I’m Pavel Kashubovich
                     <br/>
@@ -13,7 +13,7 @@ const Header = () => {
                 <button className="header-content__button">HIRE ME &#10144;</button>
             </div>
             <img className="img" src={img} alt="me"/>
-        </div>
+        </header>
 );
 };
 
