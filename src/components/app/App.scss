@@ -4,8 +4,8 @@
         "nav header ads"
         "nav article ads"
         "nav footer ads";
-    grid-template-rows: auto 1fr 50px;
-    grid-template-columns: minmax(20%, auto) 1fr 10%;
+    grid-template-rows: minmax(420px, 460px)  auto 50px;
+    grid-template-columns: minmax(22%, auto) 1fr 8%;
     grid-gap: 125px 30px;
     height: 100vh;
     margin: 0;
@@ -27,7 +27,7 @@
     grid-area: ads;
 }
 
-#pageHeader, footer, article, nav, .ads {
+#siteAds , #mainNav, #mainArticle, #pageFooter {
     padding: 20px;
     background: gold;
 }
