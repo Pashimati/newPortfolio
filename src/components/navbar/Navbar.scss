@@ -1,0 +1,49 @@
+@import "src/styles/variables";
+
+.nav-grid-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 30px;
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+
+  &__img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow: hidden;
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #E4E6EB;
+  }
+
+  &__title {
+    color: $black;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 123.6%;
+  }
+
+  &__job {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+}
+
+.nav-img {
+  top: 18px;
+  left: 26px;
+  position: absolute;
+  width: 274px;
+  height: 227px;
+}
