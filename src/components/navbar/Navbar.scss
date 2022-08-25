@@ -6,6 +6,23 @@
   grid-gap: 30px;
 }
 
+.nav-img {
+  top: 18px;
+  left: 26px;
+  position: absolute;
+  width: 274px;
+  height: 200px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  border-bottom: 2px solid #F0F0F6;
+  padding-bottom: 25px;
+}
+
 .item-content {
   display: flex;
   flex-direction: column;
@@ -26,24 +43,104 @@
   }
 
   &__title {
-    color: $black;
-    font-weight: 600;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
     font-size: 18px;
     line-height: 123.6%;
   }
 
   &__job {
     font-weight: 500;
+    color: $paragraph-font;
     font-size: 18px;
     line-height: 24px;
   }
-
 }
 
-.nav-img {
-  top: 18px;
-  left: 26px;
-  position: absolute;
-  width: 274px;
-  height: 227px;
+.nav-list-contacts {
+  display: flex;
+  gap: 17px;
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+    background-color: $base-yellow-color;
+    border-radius: 50%;
+  }
+
+  img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.info-me {
+  gap: 10px;
+  &__content {
+    color: $black;
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+
+    label {
+      background-color: $base-yellow-color;
+      padding: 1px;
+    }
+  }
+}
+
+.progress-bar {
+  position: relative;
+
+  label {
+    position: absolute;
+    top: -15px;
+  }
+
+  span {
+    top: -15px;
+    right: 0;
+    position: absolute;
+  }
+  span, label {
+    color: $paragraph-font;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+.abilities {
+  font-family: 'Inter';
+  font-style: normal;
+  gap: 15px;
+
+  &__title {
+    color: $black;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    padding-bottom: 15px;
+  }
+}
+
+.skills-list__item {
+  list-style: none; /* Убираем исходные маркеры */
+  background: url('../../assets/img/books.png') no-repeat 0 4px; /* Параметры фона */
+  padding-left: 24px;
+}
+
+
+.active {
+  color: #7EB942;;
 }
