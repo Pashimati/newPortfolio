@@ -1,3 +1,5 @@
+@import "src/styles/variables";
+
 .App {
     display: grid;
     grid-template-areas:
@@ -5,7 +7,7 @@
         "nav article ads"
         "nav footer ads";
     grid-template-rows: minmax(420px, 460px)  auto 50px;
-    grid-template-columns: minmax(22%, auto) 1fr 8%;
+    grid-template-columns: minmax(18%, auto) 1fr 8%;
     grid-gap: 125px 30px;
     height: 100vh;
     margin: 0;
@@ -22,12 +24,14 @@
 }
 #mainNav {
     grid-area: nav;
+    padding: 30px;
+    background-color: $white;
 }
 #siteAds {
     grid-area: ads;
 }
 
-#siteAds , #mainNav, #mainArticle, #pageFooter {
+#mainArticle, #pageFooter {
     padding: 20px;
     background: gold;
 }

@@ -1,13 +1,15 @@
 import './App.scss';
-import Header from "../../containers/header/Header";
+import Header from "../header/Header";
+import Aside from "../aside/Aside";
+import Navbar from "../navbar/Navbar";
 
 function App() {
     return (
         <div className="App">
-            <Header id="pageHeader"/>
+            <Header/>
             <article id="mainArticle">Article</article>
-            <nav id="mainNav">Nav</nav>
-            <div className="ads" id="siteAds">Ads</div>
+            <Navbar/>
+            <Aside/>
             <footer id="pageFooter">Footer</footer>
         </div>
     );
