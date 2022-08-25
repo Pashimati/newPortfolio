@@ -8,7 +8,7 @@ import education from '../../assets/img/Icons-education.png'
 
 const Aside = () => {
     return (
-        <aside className="asd">
+        <aside id="siteAds" className="asd">
             <div className="asd__container">
                 <button className="asd__btn">
                     <img src={contrast} alt="button-contrast"/>
