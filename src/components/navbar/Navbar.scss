@@ -4,6 +4,23 @@
   display: grid;
   grid-template-rows: 1fr;
   grid-gap: 30px;
+
+  &__btn {
+    background-color: $base-yellow-color;
+    padding: 10px 0;
+    color: $black;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+
+    span {
+      padding-left: 15px;
+    }
+  }
 }
 
 .nav-img {
@@ -134,10 +151,28 @@
   }
 }
 
-.skills-list__item {
-  list-style: none; /* Убираем исходные маркеры */
-  background: url('../../assets/img/books.png') no-repeat 0 4px; /* Параметры фона */
-  padding-left: 24px;
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: $paragraph-font;
+
+  &__item {
+    margin: 0;
+    padding: 0 0 0 45px;
+    list-style: none;
+    background-image: url("../../assets/img/books.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
+  }
+
 }
 
 

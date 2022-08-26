@@ -106,8 +106,19 @@ const Navbar = () => {
                         <li className="skills-list__item">
                             <span>Sass, Less, Stylus</span>
                         </li>
+                        <li className="skills-list__item">
+                            <span>Sass, Less, Stylus</span>
+                        </li>
+                        <li className="skills-list__item">
+                            <span>Materialaze, Bootstrap</span>
+                        </li>
                     </ul>
                 </div>
+                <button
+                    className="nav-grid-container__btn">
+                    Download cv
+                    <span>&#128190;</span>
+                </button>
             </div>
         </nav>
     );
