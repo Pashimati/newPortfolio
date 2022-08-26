@@ -30,8 +30,7 @@
 #siteAds {
     grid-area: ads;
 }
-
-#mainArticle, #pageFooter {
+#pageFooter {
     padding: 20px;
-    background: gold;
+    background-color: $white;
 }
