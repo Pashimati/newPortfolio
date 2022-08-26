@@ -10,10 +10,13 @@
 }
 .header-content {
   &__title{
-    font-size: 53px;
     color: $black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 123.6%;
 
-    line-height: 50px;
     padding-bottom: 40px;
   }
 
