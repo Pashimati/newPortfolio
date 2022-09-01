@@ -1,0 +1,43 @@
+@import "src/styles/variables";
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  &__button {
+    margin-top: 20px;
+    max-width: 150px;
+    padding: 10px 7px;
+
+    background-color: $base-yellow-color;
+    color: #2B2B2B;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+
+  }
+
+  label {
+    color: $paragraph-font;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    padding-bottom: 10px;
+  }
+
+  input, textarea {
+    padding: 10px;
+    background-color: #F0F0F6;
+    border: #F0F0F6;;
+  }
+}
+
+.error {
+  color: #e53e3e;
+  margin-top: 8px;
+}
