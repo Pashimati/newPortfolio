@@ -2,6 +2,7 @@ import './Article.scss'
 import me from '../../assets/img/me.png'
 import test from '../../assets/img/ImageTEST.png'
 import Carousel from 't-a-e-3d-carousel-reactjs'
+import Contact from "../contact/Contact";
 const Article = () => {
 
     const Images = [
@@ -181,6 +182,7 @@ const Article = () => {
                         {/*</ul>*/}
                     </div>
                 </section>
+                <Contact/>
             </div>
         </article>
     );
