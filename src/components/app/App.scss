@@ -1,0 +1,39 @@
+@import "src/styles/variables";
+
+.App {
+    display: grid;
+    grid-template-areas:
+        "nav header ads"
+        "nav article ads"
+        "nav footer ads";
+    grid-template-rows: minmax(420px, 460px)  auto 50px;
+    grid-template-columns: minmax(18%, auto) 1fr 8%;
+    grid-gap: 125px 50px;
+    height: 100vh;
+    margin: 0;
+}
+
+#pageHeader {
+    grid-area: header;
+}
+#pageFooter {
+    grid-area: footer;
+}
+#mainArticle {
+    grid-area: article;
+}
+#mainNav {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    grid-area: nav;
+    padding: 30px;
+    background-color: $white;
+}
+#siteAds {
+    grid-area: ads;
+}
+#pageFooter {
+    padding: 20px;
+    background-color: $white;
+}

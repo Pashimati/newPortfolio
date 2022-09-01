@@ -1,0 +1,41 @@
+@import "../../styles/variables";
+
+.asd {
+  background: #FAFAFA;
+  box-shadow: 4px 10px rgba(47, 122, 249, 0.1);
+  min-height: 100vh;
+
+  &__container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 134px;
+    align-items: center;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  &__item {
+    width: 60px;
+    height: 60px;
+    background-color: $base-bg;
+    border-radius: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  &__link {
+
+  }
+
+  &__img {
+    width: 18px;
+    height: 18px;
+  }
+}

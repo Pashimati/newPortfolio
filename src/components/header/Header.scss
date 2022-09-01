@@ -1,0 +1,48 @@
+@import "../../styles/variables";
+
+.container {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  padding: 60px 40px 40px 40px;
+  gap: 10px;
+  justify-items: center;
+  background-color: $white;
+}
+.header-content {
+  &__title{
+    color: $black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 123.6%;
+
+    padding-bottom: 40px;
+  }
+
+  &__title-color {
+    color: $base-yellow-color;
+  }
+  &__description {
+    padding-bottom: 40px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $paragraph-font;
+  }
+  &__button {
+    background-color: $base-yellow-color;
+    width: 154px;
+    height: 51px;
+  }
+}
+
+//.img {
+//  &::after {
+//    z-index: 999;
+//    width: 100px;
+//    height: 100px;
+//    background-image: url("../../assets/img/Rectangle 51.png");
+//  }
+//}

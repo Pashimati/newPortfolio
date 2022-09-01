@@ -1,0 +1,77 @@
+@import "src/styles/variables";
+
+.contact-wrap {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 0.6fr;
+  gap: 30px;
+}
+
+.contact-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 123.6%;
+  color: $black;
+
+  margin-bottom: 50px;
+}
+
+.contact-info {
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__item {
+    padding: 15px 30px;
+    background-color: $white;
+  }
+
+  &__img {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $base-yellow-color;
+    padding: 15px;
+    border-radius: 50%;
+  }
+
+  &__label {
+    display: flex;
+    justify-content: space-between;
+    color: $paragraph-font;
+
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 123.6%;
+
+    label {
+      font-weight: 500;
+      font-size: 18px;
+      padding-bottom: 15px;
+    }
+
+    span {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+}
+
+.my-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.form-wrap {
+  background-color: $white;
+  padding: 30px;
+
+
+}
